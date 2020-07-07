@@ -27,3 +27,11 @@ typewriter.pauseFor(1800)
         .deleteChars(12)
         .typeString('<span style="color: #EA39ff;"> PHP/SYMFONY</span> !')
         .start();
+
+/**** retour vers le haut ******/
+
+document.addEventListener('DOMContentLoaded', function() {
+    window.onscroll = function(ev) {
+      document.getElementById("cRetour").className = (window.pageYOffset > 100) ? "cVisible" : "cInvisible";
+    };
+});
