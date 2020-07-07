@@ -1,3 +1,10 @@
+AOS.init({
+    offset: 200, 
+    duration: 3000,
+    easing: 'ease',
+    once: true,
+});
+
 // Animation écriture
 const txtAnim = document.querySelector('.txt-animation');
 let typewriter = new Typewriter(txtAnim, {

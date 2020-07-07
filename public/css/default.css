@@ -98,6 +98,11 @@ h1{
     background: #FADBD8;
 }
 
+.fond{
+    clip-path: polygon(92% 0, 97% 43%, 100% 89%, 5% 95%, 3% 78%, 0 0);
+    background: #F57F73 ;
+}
+
 /******** presentation **********/
 
 @media screen and (max-width: 1300px){
@@ -120,6 +125,11 @@ h1{
 @media screen and (max-width: 1090px){
     .navbar a{
         font-size: 15px;
+    }
+
+    .fond {
+        clip-path: polygon(100% 0, 100% 43%, 100% 100%, 0 100%, 0 78%, 0 0);
+        background: #F57F73 ;
     }
 }
 
